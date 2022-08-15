@@ -19,6 +19,7 @@ int ThirdNumber (int num)
     }
     return num;
 }
+
 Console.Write("Введите число: ");
 int number = Convert.ToInt32(Console.ReadLine());
 if (ThirdNumber(number)> -1)
