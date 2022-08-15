@@ -9,13 +9,12 @@ int SecondDigit(int number)
     if (number > 99 && number < 1000)
     {
         secDigit = number / 10 % 10;
-        return secDigit;
     }
     else
     {
         secDigit = -1;
-        return secDigit;
     }
+    return secDigit;
 }
 
 Console.Write("Введите трехзначное число: ");
